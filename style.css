@@ -7,27 +7,15 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
-  background-color: #FFFDED;
+  background-color: #0A0A0A;
 }
 
 .navbar{
-  background-color: #F9ED7C ;
+  background-color: #F9E957 ;
 }
 
 .dropdown-menu{
-  background-color: #F9ED7C ;
-  border-radius: 10px;
-  border: 1px solid rgba(37, 37, 37, 0.5);
-}
-
-.dropdown-item:hover, .dropdown-item:focus {
-  color: #16181b;
-  text-decoration: none;
-  background-color: #FFFDED;
-}
-
-.dropdown-item{
-  font-weight: 500;
+  background-color: #F9E957 ;
 }
 
 .navbar-text-logo{
@@ -45,61 +33,4 @@ body{
 .navbar-brand.navbar-text-logo{
   position: relative;
   left: -0.5em;
-}
-
-.information-bottom{
-  background-color: #F9ED7C ;
-  width: auto;
-  height: auto;
-  padding: 2em 0em 2em 0em;
-}
-
-.copyright{
-  font-size: 0.75em;
-  padding: 0.5em 0em 0.5em 0em;
-  height: auto;
-}
-
-.copyright p{
-  margin: 0;
-  text-align: center !important;
-}
-
-.footer h4{
-  margin: 8px 0px 6px 0px;
-}
-
-.resp-container {
-  position: relative;
-  overflow: hidden;
-  height: auto;
-}
-
-.resp-iframe {
-  position: absolute;
-  top: 0%;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
-.footer h6{
-  margin: 0;
-}
-
-@media (min-width: 320px) {
-  .information-content{
-    text-align: center;
-  }
-  .resp-container{
-    height: 336px;
-  }
-}
-@media (min-width: 992px) {
-  .footer p,
-  .footer h6,
-  .footer h4{
-    text-align: left;
-  }
 }
